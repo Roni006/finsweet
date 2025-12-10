@@ -1,15 +1,32 @@
 import Container from '../../components/Common/Container'
 // ! img import 
-import pointerOne from '../../assets/work/pointer1.png' ;
-import pointerTwo from '../../assets/work/pointer2.png'; 
+import pointerOne from '../../assets/work/pointer1.png';
+import pointerTwo from '../../assets/work/pointer2.png';
 import pointerThree from '../../assets/work/pointer3.png';
 import pointerFour from '../../assets/work/pointer4.png';
 
 const Work = () => {
     const images = [
         {
-            
-        }
+            heading: 'Stragy',
+            image: pointerOne,
+            paragraph: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .'
+        },
+        {
+            heading: 'Wireframing',
+            image: pointerTwo,
+            paragraph: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .'
+        },
+        {
+            heading: 'Design',
+            image: pointerThree,
+            paragraph: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .'
+        },
+        {
+            heading: 'Development',
+            image: pointerFour,
+            paragraph: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .'
+        },
     ]
     return (
         <section className='bg-[#F4F6FC] py-32 '>
@@ -27,30 +44,17 @@ const Work = () => {
                         </a>
                     </div>
                     <div className='w-[656px] grid grid-cols-2 gap-y-12 '>
-                        
-                        <div className='work w-[328px] '>
-                            <img src={pointerOne} alt="" />
-                            <h3 className='pt-4 pb-2' >Strategy</h3>
-                            <p className="gblsw w-[303px]">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                        </div>
+                        {
+                            images.map(img => (
+                                <div className='work w-[328px] '>
+                                    <img src={img.image} alt="" />
+                                    <h3 className='pt-4 pb-2' >{img.heading}</h3>
+                                    <p className="gblsw w-[303px]">{img.paragraph}</p>
+                                </div>
+                            ))
+                        }
 
-                        <div className='work w-[328px] '>
-                            <img src={pointerOne} alt="" />
-                            <h3 className='pt-4 pb-2' >Strategy</h3>
-                            <p className="gblsw w-[303px]">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                        </div>
 
-                        <div className='work w-[328px] '>
-                            <img src={pointerOne} alt="" />
-                            <h3 className='pt-4 pb-2' >Strategy</h3>
-                            <p className="gblsw w-[303px]">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                        </div>
-
-                        <div className='work w-[328px] '>
-                            <img src={pointerOne} alt="" />
-                            <h3 className='pt-4 pb-2' >Strategy</h3>
-                            <p className="gblsw w-[303px]">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                        </div>
                     </div>
                 </div>
             </Container>

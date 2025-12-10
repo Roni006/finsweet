@@ -12,7 +12,10 @@
   @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff]
 }
 .gblsw {
-  @apply text-[16px] leading-7 font-poppins font-normal text-[#282938]
+  @apply text-[16px] leading-7 font-poppins font-normal text-[#282938] 
+}
+.gblf {
+  @apply text-[16px] leading-7 font-poppins text-[#282938] font-medium 
 }
 .gblsb {
   @apply text-[18px] leading-8 font-poppins font-medium text-[#2405F2]
@@ -24,6 +27,12 @@
 
 .btns:hover {
   @apply bg-transparent text-[#FCD980]
+}
+.gblh{
+  @apply text-[48px] leading-16 font-semibold font-poppins text-[#282938]
+}
+.gbl-fh{
+  @apply text-[24px] leading-9 font-medium font-poppins  text-[#282938]
 }
 
 /* todo: global style  */
