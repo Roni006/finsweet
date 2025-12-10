@@ -25,7 +25,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <div className='btn'>
-                            <button className='py-4 px-12 border-2 border-[rgba(244,246,252,0.2)] rounded-[40px] cursor-pointer '>Contact Us</button>
+                            <button className='py-4 px-12 border-2 border-[rgba(244,246,252,0.2)] rounded-[40px] cursor-pointer font-medium '>Contact Us</button>
                         </div>
                     </div>
                 </div>
