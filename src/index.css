@@ -11,12 +11,15 @@
 .gbls {
   @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff]
 }
+
 .gblsw {
-  @apply text-[16px] leading-7 font-poppins font-normal text-[#282938] 
+  @apply text-[16px] leading-7 font-poppins font-normal text-[#282938]
 }
+
 .gblf {
-  @apply text-[16px] leading-7 font-poppins text-[#282938] font-medium 
+  @apply text-[16px] leading-7 font-poppins text-[#282938] font-medium
 }
+
 .gblsb {
   @apply text-[18px] leading-8 font-poppins font-medium text-[#2405F2]
 }
@@ -28,11 +31,17 @@
 .btns:hover {
   @apply bg-transparent text-[#FCD980]
 }
-.gblh{
+
+.gblh {
   @apply text-[48px] leading-16 font-semibold font-poppins text-[#282938]
 }
-.gbl-fh{
-  @apply text-[24px] leading-9 font-medium font-poppins  text-[#282938]
+
+.gbl-blog {
+  @apply text-[48px] leading-16 font-semibold font-poppins text-[#282938]
+}
+
+.gbl-fh {
+  @apply text-[24px] leading-9 font-medium font-poppins text-[#282938]
 }
 
 /* todo: global style  */
@@ -64,7 +73,8 @@
 
 
 /* !work  */
-.work h3{
+.work h3 {
   @apply font-poppins leading-12 font-medium text-[32px] text-[#282938]
 }
 /* !work  */
+
