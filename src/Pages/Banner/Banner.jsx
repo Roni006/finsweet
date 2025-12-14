@@ -1,7 +1,25 @@
+// ! react slick
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
+// ! react slick 
 import Container from '../../components/Common/Container'
 import banner from "../../assets/images/banner-bg.png"
+import img from '../../assets/blog/blog2.png'
+import img2 from '../../assets/blog/blog3.png'
 
 const Banner = () => {
+    var settings = { 
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        swipe: true
+    };
     return (
         <>
             <section className='bg-[#1C1E53] py-[126px] '>
@@ -21,7 +39,12 @@ const Banner = () => {
                             </div>
                         </div>
                         <div className='w-[638px]'>
-                            <img src={banner} alt="" />
+                            <Slider {...settings}>
+                                <img src={banner} alt="" />
+                                <img src={img} alt="" />
+                                <img src={img2} alt="" />
+                                <img src={banner} alt="" />
+                            </Slider>
                         </div>
                     </div>
                 </Container>
