@@ -21,10 +21,10 @@
 }
 
 .gblf {
-  @apply text-[16px] leading-7 font-poppins text-[#282938]  font-medium 
-}
+  @apply text-[16px] leading-7 font-poppins text-[#282938] font-medium 
+} 
 .gblin {
-  @apply text-[16px] leading-7 font-poppins text-[#ffffff]  font-medium 
+  @apply text-[16px] leading-7 font-poppins text-[#ffffff] font-medium 
 }
 
 .gblsb {
@@ -44,7 +44,7 @@
 
 .gblh {
   @apply text-[48px] leading-16 font-semibold font-poppins text-[#282938]
-}
+} 
 
 .gbl-blog {
   @apply text-[48px] leading-16 font-semibold font-poppins text-[#282938]
@@ -90,4 +90,9 @@
   @apply font-poppins leading-12 font-medium text-[32px] text-[#282938]
 }
 /* !work  */
+
+
+/* ! our work  */
+ 
+/* ! our work  */
 
