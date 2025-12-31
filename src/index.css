@@ -11,8 +11,9 @@
 .gbls {
   @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff]
 }
+
 .gblfin {
-  @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff] border border-[rgba(255,255,255,0.4)] py-[18px] px-[35px] w-full rounded-2 outline-none ;
+  @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff] border border-[rgba(255, 255, 255, 0.4)] py-[18px] px-[35px] w-full rounded-2 outline-none;
 
 }
 
@@ -21,10 +22,11 @@
 }
 
 .gblf {
-  @apply text-[16px] leading-7 font-poppins text-[#282938] font-medium 
-} 
+  @apply text-[16px] leading-7 font-poppins text-[#282938] font-medium
+}
+
 .gblin {
-  @apply text-[16px] leading-7 font-poppins text-[#ffffff] font-medium 
+  @apply text-[16px] leading-7 font-poppins text-[#ffffff] font-medium
 }
 
 .gblsb {
@@ -34,6 +36,7 @@
 .btns {
   @apply text-[18px] leading-8 font-manrope font-semibold bg-[#FCD980] py-4 px-14 rounded-[40px] inline-block border-1 border-[#FCD980] duration-200;
 }
+
 .gbl-fbtn {
   @apply text-[18px] leading-8 font-manrope font-semibold bg-[#FCD980] py-4 px-14 rounded-[40px] inline-block border-1 border-[#FCD980] duration-200;
 }
@@ -44,7 +47,7 @@
 
 .gblh {
   @apply text-[48px] leading-16 font-semibold font-poppins text-[#282938]
-} 
+}
 
 .gbl-blog {
   @apply text-[48px] leading-16 font-semibold font-poppins text-[#282938]
@@ -53,7 +56,8 @@
 .gbl-fh {
   @apply text-[24px] leading-9 font-medium font-poppins text-[#282938]
 }
-.gblin-f{
+
+.gblin-f {
   @apply text-[32px] leading-12 font-medium font-poppins text-[#ffffff]
 }
 
@@ -64,6 +68,7 @@
 @theme {
   --font-poppins: "Poppins", sans-serif;
   --font-manrope: "Manrope", sans-serif;
+  --font-inter: "Inter", sans-serif;
 }
 
 /*! custom fonts  */
@@ -89,10 +94,10 @@
 .work h3 {
   @apply font-poppins leading-12 font-medium text-[32px] text-[#282938]
 }
+
 /* !work  */
 
 
-/* ! our work  */
- 
-/* ! our work  */
+/* ! about section  */
 
+/* ! about section  */
