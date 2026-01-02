@@ -46,10 +46,10 @@ const Feature = () => {
                     <h4 className='gblf '>Features</h4>
                     <h2 className='gblh mt-2'>Design that solves problems, one product at a time</h2>
                 </div>
-                <div className='grid grid-cols-3 gap-4 gap-y-6'>
+                <div className='grid grid-cols-3 gap-4 gap-y-6 '>
                     {
                         featureContent.map(feature => (
-                            <div className='w-[405px] bg-[#ffffff] py-10 px-12 rounded-sm shadow'>
+                            <div className='w-[405px] bg-[#ffffff] py-10 px-12 rounded-sm shadow hover:shadow-xl duration-300'>
                                 <img src={feature.icon} alt="" />
                                 <h4 className='gbl-fh pt-[22px] pb-3'>{
                                     feature.heading}</h4>

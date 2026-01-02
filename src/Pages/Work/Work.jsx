@@ -46,14 +46,13 @@ const Work = () => {
                     <div className='w-[656px] grid grid-cols-2 gap-y-12 '>
                         {
                             images.map(img => (
-                                <div className='work w-[328px] '>
-                                    <img src={img.image} alt="" />
+                                <div className='work w-[328px] py-[15px] px-[15px] hover:shadow-xl duration-300 hover:px-[15px] hover:py-[15px] hover:rounded-md'>
+                                    <img src={img.image} className='' alt="" />
                                     <h3 className='pt-4 pb-2' >{img.heading}</h3>
                                     <p className="gblsw w-[303px]">{img.paragraph}</p>
                                 </div>
                             ))
-                        }
-
+                        } 
 
                     </div>
                 </div>
