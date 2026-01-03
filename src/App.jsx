@@ -10,6 +10,7 @@ import OurClients from "./Pages/OurClients/OurClients";
 import OurMission from "./Pages/OurMission/OurMission";
 import OurProject from "./Pages/OurProject/OurProject";
 import OurTeam from "./Pages/OurTeam/OurTeam";
+import Pricing from "./Pages/Pricing/Pricing";
 import Process from "./Pages/Process/Process";
 import WhoWe from "./Pages/WhoWe/WhoWe";
 import Work from "./Pages/Work/Work";
@@ -22,9 +23,9 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
         </Routes>
       </BrowserRouter> */}
-      
+
       <Navbar />
-      <Banner />
+      {/* <Banner />
       <Work />
       <OurProject />
       <Feature />
@@ -36,7 +37,8 @@ function App() {
       <Process />
       <OurMission />
       <Benefit />
-      <OurTeam />
+      <OurTeam /> */}
+      <Pricing />
       <Footer />
     </>
   );
