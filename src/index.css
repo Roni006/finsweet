@@ -73,7 +73,7 @@
 
 /* !navbar  */
 .menus ul li a,
-.btn button {
+.btn .button {
   @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff] duration-300;
 }
 
@@ -81,7 +81,7 @@
   @apply text-[#FCD980];
 }
 
-.btn button:hover {
+.btn .button:hover {
   @apply bg-[#FCD980] text-[#1C1E53];
 }
 
