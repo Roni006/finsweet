@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../../../components/Common/Container";
+import Container from "../../components/Common/Container";
 // ! image import
 import iconTwo from "../../../assets/fearure/Icon2.png";
 import iconFive from "../../../assets/fearure/Icon5.png";

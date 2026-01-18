@@ -4,7 +4,7 @@ import line from "../../assets/about-bg/Line.png";
 const Process = () => {
     return (
         <>
-            <section className='py-[128px] '>
+            <section className='py-32 '>
                 <Container>
                     <div className='mainDiv' >
                         <h1 className='text-[48px] leading-16 font-semibold font-inter text-[#18191F] mb-12 text-center'>The process we follow</h1>
@@ -13,7 +13,7 @@ const Process = () => {
                             <div>
                                 <div>
                                     <div className='flex items-center gap-6'>
-                                        <div className='cirle w-6 h-6 bg-[#2405F2] rounded-full '></div>
+                                        <div className='cirle w-6 h-6 bg-[#7065ba] rounded-full'></div>
                                         <div className="dots">
                                             <img src={line} alt="" />
                                         </div>

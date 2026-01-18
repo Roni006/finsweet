@@ -1,13 +1,13 @@
 import React from "react";
 import Container from "../../components/Common/Container";
 import ColorPointer from "../../assets/ColorPointer.svg";
-import BWPointer from "../../assets/BWPointer.svg";
+import BWPointer from "../../assets/BWPointer.svg"; 
 const Pricing = () => {
   return (
     <>
       <section className="pt-32">
         <Container>
-          <div>
+          <div> 
             <div className="w-[562px] text-center mx-auto mb-15">
               <h1 className="gblh">Our Pricings Plan</h1>
               <p className="gblf">
