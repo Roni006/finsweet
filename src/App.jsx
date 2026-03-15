@@ -3,6 +3,7 @@ import AboutUs from "./Pages/AboutUsHero/AboutUsHero";
 import Home from "./components/Home/Home"; 
 import RootLayout from "./layout/RootLayout";
 import WhoWeAre from "./Pages/WhoWeAre";
+import Process from './Pages/Process';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/whoweare" element={<WhoWeAre />} />
+            <Route path="/process" element={<Process />} />
 
           </Route>
         </Routes>
