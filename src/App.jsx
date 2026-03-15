@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router";
 import Navbar from "./components/Common/Navbar/Navbar";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Banner from "./Pages/Banner/Banner";
@@ -5,6 +6,7 @@ import Benefit from "./Pages/Benefit/Benefit";
 import Blog from "./Pages/Blog/Blog";
 import Feature from "./Pages/Feature/Feature";
 import Footer from "./Pages/Footer/Footer";
+import Home from "./Pages/Home/Home";
 import Inqiry from "./Pages/Inqiry/Inqiry";
 import OurClients from "./Pages/OurClients/OurClients";
 import OurMission from "./Pages/OurMission/OurMission";
@@ -17,29 +19,15 @@ import Work from "./Pages/Work/Work";
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<Home/>} />
           <Route path="/about-us" element={<AboutUs />} />
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
 
-      <Navbar />
-      {/* <Banner />
-      <Work />
-      <OurProject />
-      <Feature />
-      <OurClients />
-      <Inqiry />
-      <Blog />
-      <AboutUs />
-      <WhoWe />
-      <Process />
-      <OurMission />
-      <Benefit />
-      <OurTeam /> */}
-      <Pricing />
-      <Footer />
+      {/* <Navbar /> 
+      <Footer /> */}
     </>
   );
 }

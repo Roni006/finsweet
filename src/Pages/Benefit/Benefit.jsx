@@ -1,15 +1,15 @@
 import React from "react";
 import Container from "../../components/Common/Container";
 // ! image import
-import iconTwo from "../../../assets/fearure/Icon2.png";
-import iconFive from "../../../assets/fearure/Icon5.png";
-import iconSix from "../../../assets/fearure/Icon6.png";
+// import iconTwo from "../../../assets/fearure/.png";
+// import iconFive from "../../../assets/fearure/Icon5.png";
+// import iconSix from "../../../assets/fearure/Icon6.png";
 //! brand image
-import brand1 from "../../../assets/brand/Logo 1.png";
-import brand2 from "../../../assets/brand/Logo 2.png";
-import brand3 from "../../../assets/brand/Logo 3.png";
-import brand4 from "../../../assets/brand/Logo 4.png";
-import brand5 from "../../../assets/brand/Logo 5.png";
+// import brand1 from "../../../assets/brand/Logo 1.png";
+// import brand2 from "../../../assets/brand/Logo 2.png";
+// import brand3 from "../../../assets/brand/Logo 3.png";
+// import brand4 from "../../../assets/brand/Logo 4.png";
+// import brand5 from "../../../assets/brand/Logo 5.png";
 
 const Benefit = () => {
   const featureContent = [
