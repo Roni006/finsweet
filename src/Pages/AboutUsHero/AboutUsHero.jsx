@@ -1,6 +1,6 @@
 import Container from '../../components/Common/Container'
 import aboutBg from "../../assets/about-bg/aboutBg.png"
-const AboutUs = () => {
+const AboutUsHero = () => {
   return (
     <>
     <section className='py-[128px]'>
@@ -21,4 +21,4 @@ const AboutUs = () => {
   )
 }
 
-export default AboutUs
+export default AboutUsHero;
