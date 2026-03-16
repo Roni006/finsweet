@@ -1,5 +1,5 @@
-import React from "react";
-import Container from "../components/Common/Container";
+import Container from "../../components/Common/Container";
+import Whowe from "../../assets/images/whowe-bg.png"
 
 const WhoWeAre = () => {
   return (
@@ -29,7 +29,7 @@ const WhoWeAre = () => {
               </div>
             </div>
             <div>
-                <img src="../assets/images/whowe-bg.png" alt="who we are" />
+              <img src={Whowe} alt="who we are" />
             </div>
           </div>
         </Container>

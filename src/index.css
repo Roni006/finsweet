@@ -60,7 +60,7 @@
 }
 
 .whowe-title {
-  @apply text-[38px] font-poppins font-semibold leading-[56px] text-[#282938];
+  @apply text-[38px] font-poppins font-semibold leading-14 text-[#282938];
 }
 
 /* todo: global style  */
