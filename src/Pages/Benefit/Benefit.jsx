@@ -84,12 +84,7 @@ const Benefit = () => {
               <div className="flex items-center gap-15 mt-[75px]">
                 {brandImage.map((brands, i) => (
                   <img src={brands.brand} alt="" />
-                ))}
-                {/* <img src={brand1} alt="brand image" />
-                <img src={brand2} alt="brand image" />
-                <img src={brand3} alt="brand image" />
-                <img src={brand4} alt="brand image" />
-                <img src={brand5} alt="brand image" /> */}
+                ))} 
               </div>
             </div>
           </div>

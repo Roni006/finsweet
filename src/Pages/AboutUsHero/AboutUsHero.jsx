@@ -1,8 +1,10 @@
 import Container from '../../components/Common/Container'
 import aboutBg from "../../assets/about-bg/aboutBg.png"
+
 const AboutUsHero = () => {
   return (
     <>
+    
     <section className='py-32'>
         <Container>
             <div className='flex items-center gap-[138px]'>
@@ -21,4 +23,4 @@ const AboutUsHero = () => {
   )
 }
 
-export default AboutUsHero;
+export default AboutUsHero
