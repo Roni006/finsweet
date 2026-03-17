@@ -24,7 +24,7 @@ const Banner = () => {
         <>
             <section className='bg-[#1C1E53] py-[126px] '>
                 <Container>
-                    <div className="maintContent flex items-center gap-15">
+                    <div className="maintContent flex items-center justify-between gap-15">
                         <div className='w-[582px]'>
                             <h1 className='text-[54px] leading-[74px] text-[#ffffff] font-poppins font-bold '>Building stellar websites for early startups</h1>
                             <p className='gbls w-[562px] pt-6 pb-12'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>

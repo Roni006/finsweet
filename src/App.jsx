@@ -8,6 +8,8 @@ import MIssionVission from "./Pages/MIssionVission";
 import Pricing from "./Pages/Pricing/Pricing";
 import Benefit from "./Pages/Benefit/Benefit";
 import Feature from "./Pages/Feature/Feature";
+import OurTeam from "./Pages/OurTeam/OurTeam";
+import FeatureHero from "./Pages/FeatureHero/FeatureHero";
 function App() {
   return (
     <>
@@ -16,12 +18,15 @@ function App() {
           <Route path="/" element={<RootLayout />}>
             <Route index element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
+            {/*! extra  */}
             <Route path="/whoweare" element={<WhoWeAre />} />
             <Route path="/process" element={<Process />} />
             <Route path="/vmission" element={<MIssionVission />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/benefit" element={<Benefit />} />
             <Route path="/feature" element={<Feature />} />
+            <Route path="/team" element={<OurTeam />} />
+            <Route path="/featurehero" element={<FeatureHero />} />
           </Route>
         </Routes>
       </BrowserRouter>
