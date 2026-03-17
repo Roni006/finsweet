@@ -27,6 +27,9 @@
   @apply text-[16px] leading-7 font-poppins text-[#ffffff] font-medium;
 }
 
+.top-span {
+  @apply text-[18px] leading-8 font-poppins font-medium text-[#000000];
+}
 .gblsb {
   @apply text-[18px] leading-8 font-poppins font-medium text-[#2405F2];
 }

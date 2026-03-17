@@ -11,6 +11,7 @@ import OurTeam from "./Pages/OurTeam/OurTeam";
 import FeatureHero from "./Pages/FeatureHero/FeatureHero";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Logo from "./Pages/Logo/Logo";
+import BestInClass from "./Pages/BestInClass/BestInClass";
 function App() {
   return (
     <>
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<RootLayout />}>
             <Route index element={<Home />} />
             <Route path={"/aboutus"} element={<AboutUs />} />
-            
+
             {/*! extra  */}
             <Route path="/whoweare" element={<WhoWeAre />} />
             <Route path="/process" element={<Process />} />
@@ -30,6 +31,7 @@ function App() {
             <Route path="/team" element={<OurTeam />} />
             <Route path="/featurehero" element={<FeatureHero />} />
             <Route path="/logo" element={<Logo />} />
+            <Route path="/bestClass" element={<BestInClass />} />
           </Route>
         </Routes>
       </BrowserRouter>
