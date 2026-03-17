@@ -12,6 +12,9 @@ import FeatureHero from "./Pages/FeatureHero/FeatureHero";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Logo from "./Pages/Logo/Logo";
 import BestInClass from "./Pages/BestInClass/BestInClass";
+import Rivisions from "./Pages/Rivisions/Rivisions";
+import Support from "./Pages/Support/Support";
+import Deliver from "./Pages/Deliver/Deliver";
 function App() {
   return (
     <>
@@ -32,6 +35,9 @@ function App() {
             <Route path="/featurehero" element={<FeatureHero />} />
             <Route path="/logo" element={<Logo />} />
             <Route path="/bestClass" element={<BestInClass />} />
+            <Route path="/rivisions" element={<Rivisions />} />
+            <Route path="/support" element={<Support />} />
+            <Route path="/deliver" element={<Deliver />} />
           </Route>
         </Routes>
       </BrowserRouter>
