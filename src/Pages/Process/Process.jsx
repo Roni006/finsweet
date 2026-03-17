@@ -1,80 +1,60 @@
-import React from 'react'
-import Container from '../../components/Common/Container'
-import line from "../../assets/about-bg/Line.png";
+import React from "react";
+import Container from "../../components/Common/Container";
+import circle from "../../assets/process/process-circle.png";
+import line from "../../assets/process/process-line.png";
+
 const Process = () => {
-    return (
-        <>
-            <section className='py-32 '>
-                <Container>
-                    <div className='mainDiv' >
-                        <h1 className='text-[48px] leading-16 font-semibold font-inter text-[#18191F] mb-12 text-center'>The process we follow</h1>
-                        <div  className='flex items-center gap-8'>
+  const details = [
+    {
+      circle: circle,
+      line: line,
+      title: "Planing",
+      desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+    },
+    {
+      circle: circle,
+      line: line,
+      title: "Conception",
+      desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+    },
+    {
+      circle: circle,
+      line: line,
+      title: "Design",
+      desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+    },
+    {
+      circle: circle,
+      line: line,
+      title: "Development",
+      desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+    },
+  ];
 
-                            <div>
-                                <div>
-                                    <div className='flex items-center gap-6'>
-                                        <div className='cirle w-6 h-6 bg-[#7065ba] rounded-full'></div>
-                                        <div className="dots">
-                                            <img src={line} alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 className='gbl-fh pt-8 pb-2'>Planing</h4>
-                                    <p className='gblsw w-[272px] '>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div>
-                                    <div className='flex items-center gap-6'>
-                                        <div className='cirle w-6 h-6 bg-[#2405F2] rounded-full '></div>
-                                        <div className="dots">
-                                            <img src={line} alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 className='gbl-fh pt-8 pb-2'>Planing</h4>
-                                    <p className='gblsw w-[272px] '>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div>
-                                    <div className='flex items-center gap-6'>
-                                        <div className='cirle w-6 h-6 bg-[#2405F2] rounded-full '></div>
-                                        <div className="dots">
-                                            <img src={line} alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 className='gbl-fh pt-8 pb-2'>Planing</h4>
-                                    <p className='gblsw w-[272px] '>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                </div>
-                            </div>
-                            
-                            <div>
-                                <div>
-                                    <div className='flex items-center gap-6'>
-                                        <div className='cirle w-6 h-6 bg-[#2405F2] rounded-full '></div>
-                                        <div className="dots">
-                                            <img src={line} alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 className='gbl-fh pt-8 pb-2'>Planing</h4>
-                                    <p className='gblsw w-[272px] '>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </Container>
-            </section>
-        </>
-    )
-}
-
-export default Process
+  return (
+    <>
+      <section className="py-32">
+        <Container>
+          <div>
+            <div className="flex flex-col items-center">
+              <span class=" whowe-title">The Process We Follow</span>
+            </div>
+            <div className="grid grid-cols-4 items-center mt-12.5">
+              {details.map((card, index) => (
+                <div className="items w-[272px]">
+                  <div className="icon flex items-center gap-6">
+                    <img src={card.circle} alt="circle image" />
+                    <img src={card.line} alt="line imager" />
+                  </div>
+                  <h6 className="gbl-fh pt-8 pb-2">{card.title}</h6>
+                  <p className="gblsw">{card.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </Container>
+      </section>
+    </>
+  );
+};
+export default Process;

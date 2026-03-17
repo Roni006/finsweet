@@ -1,6 +1,6 @@
 import AboutUsHero from "../../Pages/AboutUsHero/AboutUsHero";
 import WhoWeAre from "../../Pages/WhoWeAre/WhoWeAre";
-import Process from "../../Pages/Process";
+import Process from "../../Pages/Process/Process";
 import MIssionVission from "../../Pages/MIssionVission";
 
 const AboutUs = () => {

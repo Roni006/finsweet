@@ -1,32 +1,32 @@
-import React from "react";
 import Container from "../../components/Common/Container";
 // ! image import
-// import iconTwo from "../../../assets/fearure/.png";
-// import iconFive from "../../../assets/fearure/Icon5.png";
-// import iconSix from "../../../assets/fearure/Icon6.png";
+import icon2 from "../../assets/fearure/Icon2.png";
+import icon5 from "../../assets/fearure/Icon5.png";
+import icon6 from "../../assets/fearure/Icon6.png";
+
 //! brand image
-// import brand1 from "../../../assets/brand/Logo 1.png";
-// import brand2 from "../../../assets/brand/Logo 2.png";
-// import brand3 from "../../../assets/brand/Logo 3.png";
-// import brand4 from "../../../assets/brand/Logo 4.png";
-// import brand5 from "../../../assets/brand/Logo 5.png";
+import brand1 from "../../assets/brand/Logo 1.png";
+import brand2 from "../../assets/brand/Logo 2.png";
+import brand3 from "../../assets/brand/Logo 3.png";
+import brand4 from "../../assets/brand/Logo 4.png";
+import brand5 from "../../assets/brand/Logo 5.png";
 
 const Benefit = () => {
   const featureContent = [
     {
-      icon: iconFive,
+      icon: icon5,
       heading: "Customize with ease",
       paragraph:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.",
     },
     {
-      icon: iconTwo,
+      icon: icon2,
       heading: "Perfectly Responsive",
       paragraph:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.",
     },
     {
-      icon: iconSix,
+      icon: icon6,
       heading: "Friendly Support",
       paragraph:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.",
@@ -61,7 +61,7 @@ const Benefit = () => {
                 <h2 className="gblh mt-2">The benefits of working with us</h2>
               </div>
               <div className="grid grid-cols-3 gap-4 gap-y-6 mt-12">
-                {featureContent.map((feature) => (
+                {featureContent.map((feature, i) => (
                   <div className="w-[405px] bg-[#F4F6FC] py-10 px-12 rounded-sm shadow">
                     <img src={feature.icon} alt="" />
                     <h4 className="gbl-fh pt-[22px] pb-3">{feature.heading}</h4>
@@ -82,11 +82,14 @@ const Benefit = () => {
                 </p>
               </div>
               <div className="flex items-center gap-15 mt-[75px]">
-                <img src={brand1} alt="brand image" />
+                {brandImage.map((brands, i) => (
+                  <img src={brands.brand} alt="" />
+                ))}
+                {/* <img src={brand1} alt="brand image" />
                 <img src={brand2} alt="brand image" />
                 <img src={brand3} alt="brand image" />
                 <img src={brand4} alt="brand image" />
-                <img src={brand5} alt="brand image" />
+                <img src={brand5} alt="brand image" /> */}
               </div>
             </div>
           </div>

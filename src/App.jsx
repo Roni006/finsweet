@@ -3,8 +3,11 @@ import AboutUs from "./Pages/AboutUsHero/AboutUsHero";
 import Home from "./components/Home/Home"; 
 import RootLayout from "./layout/RootLayout";
 import WhoWeAre from "./Pages/WhoWeAre/WhoWeAre";
-import Process from './Pages/Process';
+import Process from './Pages/Process/Process';
 import MIssionVission from "./Pages/MIssionVission";
+import Pricing from "./Pages/Pricing/Pricing";
+import Benefit from "./Pages/Benefit/Benefit";
+import Feature from "./Pages/Feature/Feature";
 function App() {
   return (
     <>
@@ -16,6 +19,9 @@ function App() {
             <Route path="/whoweare" element={<WhoWeAre />} />
             <Route path="/process" element={<Process />} />
             <Route path="/vmission" element={<MIssionVission />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/benefit" element={<Benefit />} />
+            <Route path="/feature" element={<Feature />} />
           </Route>
         </Routes>
       </BrowserRouter>
