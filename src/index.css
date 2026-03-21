@@ -142,3 +142,7 @@
   opacity: 1;
   top: 180px;
 }
+
+.rotate a:hover span  {
+  @apply rotate-360 duration-300
+}

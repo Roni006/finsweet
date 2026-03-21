@@ -16,6 +16,7 @@ import Rivisions from "./Pages/Rivisions/Rivisions";
 import Support from "./Pages/Support/Support";
 import Deliver from "./Pages/Deliver/Deliver";
 import WorkHero from "./Pages/WorkHero/WorkHero";
+import OurWork from "./Pages/OurWork/OurWork";
 function App() {
   return (
     <>
@@ -40,6 +41,7 @@ function App() {
             <Route path="/support" element={<Support />} />
             <Route path="/deliver" element={<Deliver />} />
             <Route path="/workhero" element={<WorkHero />} />
+            <Route path="/ourwork" element={<OurWork />} />
 
           </Route>
         </Routes>
