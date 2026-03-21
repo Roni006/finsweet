@@ -30,6 +30,9 @@
 .top-span {
   @apply text-[18px] leading-8 font-poppins font-medium text-[#000000];
 }
+.cta {
+  @apply text-[18px] leading-8 font-manrope font-semibold text-[#1B1C2B];
+}
 .gblsb {
   @apply text-[18px] leading-8 font-poppins font-medium text-[#2405F2];
 }
