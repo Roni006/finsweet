@@ -67,7 +67,7 @@
 
 .whowe-title {
   @apply text-[38px] font-poppins font-semibold leading-14 text-[#282938];
-}
+} 
 
 /* todo: global style  */
 
@@ -146,6 +146,6 @@
   top: 180px;
 }
 
-.rotate a:hover span  {
-  @apply rotate-360 duration-300
+.rotate a:hover span {
+  @apply rotate-360 duration-300;
 }

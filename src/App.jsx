@@ -19,6 +19,7 @@ import WorkHero from "./Pages/WorkHero/WorkHero";
 import OurWork from "./Pages/OurWork/OurWork";
 import CTAAction from "./Pages/CTAAction/CTAAction";
 import BlogSummery from "./Pages/BlogSummery/BlogSummery";
+import BlogArticle from "./Pages/BlogArticle/BlogArticle";
 function App() {
   return (
     <>
@@ -46,6 +47,7 @@ function App() {
             <Route path="/ourwork" element={<OurWork />} />
             <Route path="/action" element={<CTAAction />} />
             <Route path="/blogsummer" element={<BlogSummery />} />
+            <Route path="/blogarticle" element={<BlogArticle />} />
 
           </Route>
         </Routes>
