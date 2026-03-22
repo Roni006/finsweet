@@ -20,6 +20,7 @@ import OurWork from "./Pages/OurWork/OurWork";
 import CTAAction from "./Pages/CTAAction/CTAAction";
 import BlogSummery from "./Pages/BlogSummery/BlogSummery";
 import BlogArticle from "./Pages/BlogArticle/BlogArticle";
+import Keywords from "./Pages/Keywords/Keywords";
 function App() {
   return (
     <>
@@ -48,6 +49,7 @@ function App() {
             <Route path="/action" element={<CTAAction />} />
             <Route path="/blogsummer" element={<BlogSummery />} />
             <Route path="/blogarticle" element={<BlogArticle />} />
+            <Route path="/keyword" element={<Keywords />} />
 
           </Route>
         </Routes>

@@ -30,6 +30,7 @@
 .top-span {
   @apply text-[18px] leading-8 font-poppins font-medium text-[#000000];
 }
+
 .cta {
   @apply text-[18px] leading-8 font-manrope font-semibold text-[#1B1C2B];
 }
@@ -67,8 +68,16 @@
 
 .whowe-title {
   @apply text-[38px] font-poppins font-semibold leading-14 text-[#282938];
-} 
+}
 
+.keyword {
+  @apply text-[24px] leading-9 font-medium font-poppins text-[#2405F2];
+}
+
+.keywords {
+  @apply text-[18px] leading-8 font-poppins font-medium text-[#282938] cursor-pointer hover:text-[#2405F2] duration-300;
+  
+}
 /* todo: global style  */
 
 /*! custom fonts  */
