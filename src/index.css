@@ -10,6 +10,9 @@
 .gbls {
   @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff];
 }
+.iuput {
+  @apply text-[16px] leading-7 font-poppins font-normal text-[#000000];
+}
 
 .readmore {
   @apply text-[16px] leading-7 font-poppins font-normal text-[#2405F2];
@@ -37,6 +40,9 @@
 
 .cta {
   @apply text-[18px] leading-8 font-manrope font-semibold text-[#1B1C2B];
+}
+.contact-cta {
+  @apply text-[18px] leading-8 font-manrope font-semibold text-[#F4F6FC];
 }
 .gblsb {
   @apply text-[18px] leading-8 font-poppins font-medium text-[#2405F2];

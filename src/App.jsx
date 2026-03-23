@@ -25,6 +25,7 @@ import FeatureBlog from "./Pages/FeatureBlog/FeatureBlog";
 import OurBlog from "./Pages/OurBlog/OurBlog";
 import BlogHeading from "./Pages/BlogHeading/BlogHeading";
 import BlogBody from "./Pages/BlogBody/BlogBody";
+import ContactUs from "./Pages/ContactUs/ContactUs";
 function App() {
   return (
     <>
@@ -56,8 +57,9 @@ function App() {
             <Route path="/keyword" element={<Keywords />} />
             <Route path="/featureblog" element={<FeatureBlog />} />
             <Route path="/ourblog" element={<OurBlog />} />
-            <Route path="blogheading" element={<BlogHeading />} />
-            <Route path="blogbody" element={<BlogBody />} />
+            <Route path="/blogheading" element={<BlogHeading />} />
+            <Route path="/blogbody" element={<BlogBody />} />
+            <Route path="/contactus" element={<ContactUs />} />
 
           </Route>
         </Routes>
