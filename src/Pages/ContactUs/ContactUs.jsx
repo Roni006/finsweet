@@ -14,7 +14,7 @@ const ContactUs = () => {
                 eiusmod tempor incididunt ut labore.
               </p>
             </div>
-            <div className="bg-[#F4F6FC] py-15 px-[70px] rounded-md">
+            <div className="bg-[#F4F6FC] py-15 px-[70px] rounded-md mt-15">
               <form className="">
                 <div className="grid grid-cols-2 items-center gap-7.5">
                   <div className="flex flex-col gap-1.5">
