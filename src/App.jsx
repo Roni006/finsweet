@@ -22,6 +22,7 @@ import BlogSummery from "./Pages/BlogSummery/BlogSummery";
 import BlogArticle from "./Pages/BlogArticle/BlogArticle";
 import Keywords from "./Pages/Keywords/Keywords";
 import FeatureBlog from "./Pages/FeatureBlog/FeatureBlog";
+import OurBlog from "./Pages/OurBlog/OurBlog";
 function App() {
   return (
     <>
@@ -52,6 +53,7 @@ function App() {
             <Route path="/blogarticle" element={<BlogArticle />} />
             <Route path="/keyword" element={<Keywords />} />
             <Route path="/featureblog" element={<FeatureBlog />} />
+            <Route path="/ourblog" element={<OurBlog />} />
 
           </Route>
         </Routes>

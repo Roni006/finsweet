@@ -27,7 +27,7 @@ const FeatureBlog = () => {
               <a href="#" className="readmore inline-block">
                 Read More
               </a>
-            </div>
+            </div>  
           </div>
         </Container>
       </section>

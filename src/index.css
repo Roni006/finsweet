@@ -159,6 +159,10 @@
   top: 180px;
 }
 
-.rotate a:hover span {
+.rotate a:hover .span {
   @apply rotate-360 duration-300;
+}
+
+#rotate:hover .icon{
+  @apply rotate-360 duration-400 ease-in-out;
 }
