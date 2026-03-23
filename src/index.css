@@ -11,6 +11,10 @@
   @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff];
 }
 
+.readmore {
+  @apply text-[16px] leading-7 font-poppins font-normal text-[#2405F2];
+}
+
 .gblfin {
   @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff] border border-white/40 py-[18px] px-[35px] w-full rounded-[8px] outline-none;
 }
