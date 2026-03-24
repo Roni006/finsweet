@@ -26,6 +26,7 @@ import OurBlog from "./Pages/OurBlog/OurBlog";
 import BlogHeading from "./Pages/BlogHeading/BlogHeading";
 import BlogBody from "./Pages/BlogBody/BlogBody";
 import ContactUs from "./Pages/ContactUs/ContactUs";
+import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 function App() {
   return (
     <>
@@ -60,6 +61,7 @@ function App() {
             <Route path="/blogheading" element={<BlogHeading />} />
             <Route path="/blogbody" element={<BlogBody />} />
             <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
 
           </Route>
         </Routes>

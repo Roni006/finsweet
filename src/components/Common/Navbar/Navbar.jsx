@@ -33,13 +33,12 @@ const Navbar = () => {
                     <Link to="/">FAQ</Link>
                   </li>
                   <li>
-                    <Link to="/">Blog</Link>
                   </li>
                 </ul>
               </div>
               <div className="btn">
                 <Link
-                  to="/contact"
+                  to="/contactus"
                   className="button py-4 px-12 border-2 border-[rgba(244,246,252,0.2)] rounded-[40px] cursor-pointer font-medium "
                 >
                   Contact Us
