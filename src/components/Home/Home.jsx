@@ -9,16 +9,16 @@ import Blog from "../../Pages/Blog/Blog";
 import AboutUs from "../AboutUs/AboutUs";
 import WhoWe from "../../Pages/WhoWe/WhoWe";
 import Process from "../../Pages/Process/Process";
-import OurMission from "../../Pages/OurMission/OurMission";
-// import Benefit from "../Benefit/Benefit";
+import OurMission from "../../Pages/OurMission/OurMission"; 
 import OurTeam from "../../Pages/OurTeam/OurTeam";
 import Pricing from "../../Pages/Pricing/Pricing";
+import Benefit from "../../Pages/Benefit/Benefit";
 
 const Home = () => {
   return (
     <>
       <Banner />
-      <Work />
+      {/* <Work />
       <OurProject />
       <Feature />
       <OurClients />
@@ -27,10 +27,10 @@ const Home = () => {
       <AboutUs />
       <WhoWe />
       <Process />
-      <OurMission />
-      {/* <Benefit /> */}
+      <OurMission /> 
+      <Benefit/>
       <OurTeam />
-      <Pricing />
+      <Pricing /> */}
     </>
   );
 };

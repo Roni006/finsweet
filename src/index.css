@@ -6,6 +6,11 @@
 
 @import "tailwindcss";
 
+
+/*! ============= CAUTION =============== */
+
+/*! ============= CAUTION =============== */
+
 /* todo: global style  */
 .gbls {
   @apply text-[16px] leading-7 font-poppins font-normal text-[#ffffff];
