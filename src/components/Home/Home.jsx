@@ -13,24 +13,18 @@ import OurMission from "../../Pages/OurMission/OurMission";
 import OurTeam from "../../Pages/OurTeam/OurTeam";
 import Pricing from "../../Pages/Pricing/Pricing";
 import Benefit from "../../Pages/Benefit/Benefit";
+import FAQ from "../../Pages/FAQ/FAQ";   
 
 const Home = () => {
   return (
     <>
       <Banner />
-      {/* <Work />
-      <OurProject />
-      <Feature />
-      <OurClients />
-      <Inqiry />
-      <Blog />
-      <AboutUs />
-      <WhoWe />
-      <Process />
-      <OurMission /> 
-      <Benefit/>
-      <OurTeam />
-      <Pricing /> */}
+      <Work />
+      <OurProject /> 
+      <Feature/>
+      <FAQ/> 
+      <Inqiry/>
+      <Blog/>
     </>
   );
 };
