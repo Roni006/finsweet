@@ -1,19 +1,11 @@
-import React from "react";
 import Banner from "../../Pages/Banner/Banner";
 import Work from "../../Pages/Work/Work";
 import OurProject from "../../Pages/OurProject/OurProject";
-import Feature from "../../Pages/Feature/Feature";
-import OurClients from "../../Pages/OurClients/OurClients";
+import Feature from "../../Pages/Feature/Feature"; 
 import Inqiry from "../../Pages/Inqiry/Inqiry";
-import Blog from "../../Pages/Blog/Blog";
-import AboutUs from "../AboutUs/AboutUs";
-import WhoWe from "../../Pages/WhoWe/WhoWe";
-import Process from "../../Pages/Process/Process";
-import OurMission from "../../Pages/OurMission/OurMission"; 
-import OurTeam from "../../Pages/OurTeam/OurTeam";
-import Pricing from "../../Pages/Pricing/Pricing";
-import Benefit from "../../Pages/Benefit/Benefit";
+import Blog from "../../Pages/Blog/Blog"; 
 import FAQ from "../../Pages/FAQ/FAQ";   
+import Testimonials from "../../Pages/Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -21,7 +13,8 @@ const Home = () => {
       <Banner />
       <Work />
       <OurProject /> 
-      <Feature/>
+      <Feature/> 
+      <Testimonials/>
       <FAQ/> 
       <Inqiry/>
       <Blog/>
