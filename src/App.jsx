@@ -28,6 +28,7 @@ import BlogBody from "./Pages/BlogBody/BlogBody";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import FAQ from "./Pages/FAQ/FAQ";
+import Features from "./components/Features/Features";
 function App() {
   return (
     <>
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<RootLayout />}>
             <Route index element={<Home />} />
             <Route path={"/aboutus"} element={<AboutUs />} />
+            <Route path={"/features"} element={<Features />} />
 
             {/*! extra  */}
             <Route path="/whoweare" element={<WhoWeAre />} />
@@ -43,7 +45,7 @@ function App() {
             <Route path="/vmission" element={<MIssionVission />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/benefit" element={<Benefit />} />
-            <Route path="/feature" element={<Feature />} />
+            {/* <Route path="/feature" element={<Feature />} /> */}
             <Route path="/team" element={<OurTeam />} />
             <Route path="/featurehero" element={<FeatureHero />} />
             <Route path="/logo" element={<Logo />} />
