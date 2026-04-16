@@ -53,7 +53,7 @@ const Benefit = () => {
 
   return (
     <>
-      <section className=" py-32">
+      <section className=" py-15">
         <Container>
           <div>
             <div>

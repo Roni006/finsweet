@@ -5,7 +5,7 @@ const AboutUsHero = () => {
   return (
     <>
     
-    <section className='py-32'>
+    <section className='pt-28'>
         <Container>
             <div className='flex items-center gap-[138px]'>
                 <div className='w-[595px]'>

@@ -6,7 +6,7 @@ import vmisssion2 from "../assets/vmission/vmision2.png";
 const MIssionVission = () => {
   return (
     <>
-      <section className="bg-[#EEF4FA] py-32">
+      <section className="bg-[#EEF4FA] py-10">
         <Container>
           <div>
 

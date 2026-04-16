@@ -34,7 +34,7 @@ const OurTeam = () => {
   ];
   return (
     <>
-      <section className="bg-[#F4F6FC] py-32 ">
+      <section className="bg-[#F4F6FC] py-25 ">
         <Container>
           <div className=" ">
             <h1 className="gbl-blog mb-12 text-center">Meet our team </h1>
@@ -44,7 +44,7 @@ const OurTeam = () => {
                   <div>
                     <div className="">
                       <img
-                        className="hiddenImg absolute left-16"
+                        className="hiddenImg absolute left-14 bottom-0"
                         src={teamBg}
                         alt=""
                       />

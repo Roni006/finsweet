@@ -33,7 +33,7 @@ const Process = () => {
 
   return (
     <>
-      <section className="py-32">
+      <section className="pt-5 pb-15">
         <Container>
           <div>
             <div className="flex flex-col items-center">
