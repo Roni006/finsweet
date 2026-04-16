@@ -5,7 +5,7 @@ import MIssionVission from "../../Pages/MIssionVission";
 import Benefit from "../../Pages/Benefit/Benefit";
 import OurTeam from "../../Pages/OurTeam/OurTeam";
 
-const AboutUs = () => {
+const  AboutUs = () => {
   return (
     <>
       <AboutUsHero />
