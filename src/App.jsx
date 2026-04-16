@@ -28,7 +28,8 @@ import BlogBody from "./Pages/BlogBody/BlogBody";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import FAQ from "./Pages/FAQ/FAQ";
-import Features from "./components/Features/Features";
+import Features from "./components/Features/Features"; 
+import Work from "./components/Works/Works";
 function App() {
   return (
     <>
@@ -37,7 +38,8 @@ function App() {
           <Route path="/" element={<RootLayout />}>
             <Route index element={<Home />} />
             <Route path={"/aboutus"} element={<AboutUs />} />
-            <Route path={"/features"} element={<Features />} />
+            {/* <Route path={"/features"} element={<Features />} /> */}
+            {/* <Route path={"/works"} element={<Work />} /> */}
 
             {/*! extra  */}
             <Route path="/whoweare" element={<WhoWeAre />} />

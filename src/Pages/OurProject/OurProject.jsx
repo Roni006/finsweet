@@ -1,4 +1,5 @@
 // ! image import 
+import { Link } from 'react-router';
 import work1 from '../../assets/ourwork/ourwork1.png';
 import work2 from '../../assets/ourwork/ourwork2.png';
 import work3 from '../../assets/ourwork/ourwork3.png';
@@ -10,13 +11,13 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 const OurProject = () => {
     return (
-        <section className='py-[128px] '>
+        <section className='py-32 '>
             <Container>
                 <div>
-                    <div className='flex items-center justify-between mb-[64px]'>
+                    <div className='flex items-center justify-between mb-16'>
                         <h1 className='gbl-blog'>View our projects</h1>
-                        <a href='#' className='flex items-center gap-4 gblf'>View Project <HiArrowLongRight />
-                        </a >
+                        <Link to='/Work' className='flex items-center gap-4 gblf'>View More <HiArrowLongRight />
+                        </Link >
                     </div>
                     <div className='maindiv flex items-center gap-8'>
                         <div className="w-[843px] relative group overflow-hidden">
