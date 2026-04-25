@@ -6,7 +6,7 @@ import Container from "../Container";
 const Navbar = () => {
   return (
     <>
-      <section className="bg-[#1C1E53]">
+      <section className="bg-[#1C1E53] sticky absolute top-0 left-0 right-0 z-50">
         <Container>
           <div className="mainContent flex items-center justify-between py-10">
             <div className="content1">
@@ -35,8 +35,7 @@ const Navbar = () => {
                   <li>
                     <Link to="/blogs">Blog</Link>
                   </li>
-                  <li>
-                  </li>
+                  <li></li>
                 </ul>
               </div>
               <div className="btn">
