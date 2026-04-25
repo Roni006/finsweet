@@ -1,8 +1,8 @@
-import { BrowserRouter, Route, Routes } from "react-router"; 
-import Home from "./components/Home/Home"; 
+import { BrowserRouter, Route, Routes } from "react-router";
+import Home from "./components/Home/Home";
 import RootLayout from "./layout/RootLayout";
 import WhoWeAre from "./Pages/WhoWeAre/WhoWeAre";
-import Process from './Pages/Process/Process';
+import Process from "./Pages/Process/Process";
 import MIssionVission from "./Pages/MIssionVission";
 import Pricing from "./Pages/Pricing/Pricing";
 import Benefit from "./Pages/Benefit/Benefit";
@@ -28,8 +28,10 @@ import BlogBody from "./Pages/BlogBody/BlogBody";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import FAQ from "./Pages/FAQ/FAQ";
-import Features from "./components/Features/Features"; 
-import Work from "./components/Works/Works";
+import Features from "./components/Features/Features";
+import Works from "./components/Works/Works";
+import Blog from "./Pages/Blog/Blog";
+import Blogs from "./components/Blog/Blogs";
 function App() {
   return (
     <>
@@ -37,37 +39,13 @@ function App() {
         <Routes>
           <Route path="/" element={<RootLayout />}>
             <Route index element={<Home />} />
-            <Route path={"/aboutus"} element={<AboutUs />} />
-            {/* <Route path={"/features"} element={<Features />} /> */}
-            {/* <Route path={"/works"} element={<Work />} /> */}
-
-            {/*! extra  */}
-            <Route path="/whoweare" element={<WhoWeAre />} />
-            <Route path="/process" element={<Process />} />
-            <Route path="/vmission" element={<MIssionVission />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/features" element={<Features />} />
+            <Route path="/work" element={<Works />} />
             <Route path="/pricing" element={<Pricing />} />
-            <Route path="/benefit" element={<Benefit />} />
-            {/* <Route path="/feature" element={<Feature />} /> */}
-            <Route path="/team" element={<OurTeam />} />
-            <Route path="/featurehero" element={<FeatureHero />} />
-            <Route path="/logo" element={<Logo />} />
-            <Route path="/bestClass" element={<BestInClass />} />
-            <Route path="/rivisions" element={<Rivisions />} />
-            <Route path="/support" element={<Support />} />
-            <Route path="/deliver" element={<Deliver />} />
-            <Route path="/workhero" element={<WorkHero />} />
-            <Route path="/ourwork" element={<OurWork />} />
-            <Route path="/action" element={<CTAAction />} />
-            <Route path="/blogsummer" element={<BlogSummery />} />
-            <Route path="/blogarticle" element={<BlogArticle />} />
-            <Route path="/keyword" element={<Keywords />} />
-            <Route path="/featureblog" element={<FeatureBlog />} />
-            <Route path="/ourblog" element={<OurBlog />} />
-            <Route path="/blogheading" element={<BlogHeading />} />
-            <Route path="/blogbody" element={<BlogBody />} />
-            <Route path="/contactus" element={<ContactUs />} />
-            <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/contact-us" element={<ContactUs />} />
 
           </Route>
         </Routes>

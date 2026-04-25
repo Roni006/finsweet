@@ -16,7 +16,7 @@ const OurProject = () => {
                 <div>
                     <div className='flex items-center justify-between mb-16'>
                         <h1 className='gbl-blog'>View our projects</h1>
-                        <Link to='/Work' className='flex items-center gap-4 gblf'>View More <HiArrowLongRight />
+                        <Link to='/work' className='flex items-center gap-4 gblf'>View More <HiArrowLongRight />
                         </Link >
                     </div>
                     <div className='maindiv flex items-center gap-8'>

@@ -3,7 +3,7 @@ import WorkHero from "../../Pages/WorkHero/WorkHero";
 import OurWork from "../../Pages/OurWork/OurWork";
 import CTAAction from "../../Pages/CTAAction/CTAAction";
 
-const Work = () => {
+const Works = () => {
   return (
     <>
       <WorkHero />
@@ -13,4 +13,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Works;

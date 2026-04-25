@@ -21,16 +21,19 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="/aboutus">About Us</Link>
+                    <Link to="/about-us">About Us</Link>
                   </li>
                   <li>
-                    <Link to="/">Features</Link>
+                    <Link to="/features">Features</Link>
                   </li>
                   <li>
                     <Link to="/pricing">Pricing</Link>
                   </li>
                   <li>
-                    <Link to="/">FAQ</Link>
+                    <Link to="/faq">FAQ</Link>
+                  </li>
+                  <li>
+                    <Link to="/blogs">Blog</Link>
                   </li>
                   <li>
                   </li>
@@ -38,7 +41,7 @@ const Navbar = () => {
               </div>
               <div className="btn">
                 <Link
-                  to="/contactus"
+                  to="/contact-us"
                   className="button py-4 px-12 border-2 border-[rgba(244,246,252,0.2)] rounded-[40px] cursor-pointer font-medium "
                 >
                   Contact Us
