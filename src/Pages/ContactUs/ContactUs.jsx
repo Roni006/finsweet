@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../components/Common/Container";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const ContactUs = () => {
   return (
@@ -39,7 +40,7 @@ const ContactUs = () => {
                     />
                   </div>
 
-                  <div className="flex flex-col gap-1.5">
+                  <div className=" flex flex-col gap-1.5">
                     <label htmlFor="text" className="top-span">
                       Subject
                     </label>
@@ -50,14 +51,14 @@ const ContactUs = () => {
                     />
                   </div>
 
-                  <div className="flex flex-col gap-1.5">
+                  <div className="relative flex flex-col gap-1.5">
                     <label htmlFor="text" className="top-span">
                       Subject
                     </label>
                     <select
                       name=""
                       id=""
-                      className="iuput py-4 px-8 border border-[#e3e0e0] rounded-md outline-none cursor-pointer"
+                      className="iuput py-4 px-8 border border-[#e3e0e0] rounded-md outline-none cursor-pointer appearance-none"
                     >
                       <option value="Select Subject">Select Subject</option>
                       <option className="top-span" value="design">
@@ -76,11 +77,7 @@ const ContactUs = () => {
                         Motion Graphics
                       </option>
                     </select>
-                    {/* <input
-                      className="iuput py-4 px-8 border border-[#e3e0e0] rounded-md outline-none "
-                      type="text"
-                      placeholder="Select SUbject.."
-                    /> */}
+                    <MdOutlineKeyboardArrowDown className="absolute right-2 top-15 text-[22px] " />
                   </div>
                 </div>
                 <div className="flex flex-col gap-1.5 mt-4">
