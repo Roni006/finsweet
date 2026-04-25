@@ -92,15 +92,11 @@ const Footer = () => {
                     <Link to="/features">Features</Link>
                   </li>
                   <li className="text-[16px] font-medium font-poppins text-[#282938] hover:text-[#FCD980] duration-300">
-                    <Link to="/pricing">Pricing</Link>
-                  </li>
-                  <li className="text-[16px] font-medium font-poppins text-[#282938] hover:text-[#FCD980] duration-300">
-                    <Link to="/faq">FAQ</Link>
-                  </li>
-                  <li className="text-[16px] font-medium font-poppins text-[#282938] hover:text-[#FCD980] duration-300">
                     <Link to="/blogs">Blog</Link>
                   </li>
-                  <li></li>
+                  <li className="text-[16px] font-medium font-poppins text-[#282938] hover:text-[#FCD980] duration-300">
+                    <Link to="/privacy-police">Privace Policy</Link>
+                  </li>
                 </ul>
               </div>
             </div>

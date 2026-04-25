@@ -46,7 +46,7 @@ function App() {
             <Route path="/faq" element={<FAQ />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/contact-us" element={<ContactUs />} />
-
+            <Route path="/privacy-police" element={<PrivacyPolicy />} />
           </Route>
         </Routes>
       </BrowserRouter>
