@@ -60,7 +60,7 @@ const OurWork = () => {
 
               <div className="grid grid-cols-2 items-center justify-between gap-8.75">
                 {activeTab === "all" && (
-                  <div className="max-w-7xl mx-auto mt-[30px] w-[623px] rotate">
+                  <div className="max-w-7xl mx-auto mt-[30px] rotate">
                     <img
                       className="rounded-md"
                       src={work1}
@@ -90,7 +90,7 @@ const OurWork = () => {
                 )}
 
                 {activeTab === "all" && (
-                  <div className="max-w-7xl mx-auto mt-[30px] w-[623px] rotate">
+                  <div className="max-w-7xl mx-auto mt-[30px]  rotate">
                     <img
                       className="rounded-md"
                       src={work2}
@@ -120,7 +120,7 @@ const OurWork = () => {
                 )}
 
                 {activeTab === "all" && (
-                  <div className="max-w-7xl mx-auto mt-[30px] w-[623px] rotate">
+                  <div className="max-w-7xl mx-auto mt-[30px] rotate">
                     <img
                       className="rounded-md"
                       src={work3}
@@ -150,7 +150,7 @@ const OurWork = () => {
                 )}
 
                 {activeTab === "all" && (
-                  <div className="max-w-7xl mx-auto mt-[30px] w-[623px] rotate">
+                  <div className="max-w-7xl mx-auto mt-[30px] rotate">
                     <img
                       className="rounded-md"
                       src={work4}
@@ -180,7 +180,7 @@ const OurWork = () => {
                 )}
 
                 {activeTab === "all" && (
-                  <div className="max-w-7xl mx-auto mt-[30px] w-[623px] rotate">
+                  <div className="max-w-7xl mx-auto mt-[30px] rotate">
                     <img
                       className="rounded-md"
                       src={work5}
@@ -210,7 +210,7 @@ const OurWork = () => {
                 )}
 
                 {activeTab === "all" && (
-                  <div className="max-w-7xl mx-auto mt-[30px] w-[623px] rotate">
+                  <div className="max-w-7xl mx-auto mt-[30px] rotate">
                     <img
                       className="rounded-md"
                       src={work6}
@@ -239,27 +239,28 @@ const OurWork = () => {
                   </div>
                 )}
               </div>
-              {/*All tabs contents  */}
+              <div className="flex gap-10">
+                {/*All tabs contents  */} 
+                {activeTab === "ui design" && (
+                  <div className="max-w-2xl mt-8">
+                    <h4 className="text-base font-semibold">
+                      Content Management
+                    </h4>
+                  </div>
+                )}
 
-              {activeTab === "ui design" && (
-                <div className="max-w-2xl mt-8">
-                  <h4 className="text-base font-semibold">
-                    Content Management
-                  </h4>
-                </div>
-              )}
+                {activeTab === "Webflow Design" && (
+                  <div className="max-w-2xl mt-8">
+                    <h4 className="text-base font-semibold">Your Profile</h4>
+                  </div>
+                )}
 
-              {activeTab === "Webflow Design" && (
-                <div className="max-w-2xl mt-8">
-                  <h4 className="text-base font-semibold">Your Profile</h4>
-                </div>
-              )}
-
-              {activeTab === "Figma Design" && (
-                <div className="max-w-2xl mt-8">
-                  <h4 className="text-base font-semibold">Your Profile</h4>
-                </div>
-              )}
+                {activeTab === "Figma Design" && (
+                  <div className="max-w-2xl mt-8">
+                    <h4 className="text-base font-semibold">Your Profile</h4>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </Container>
